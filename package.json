@@ -1,0 +1,39 @@
+{
+  "name": "@devgfnl/pwastudio-traducao-pt-br",
+  "version": "1.0.0",
+  "description": "Traduções para o português brasileiro para o PWA Studio.",
+  "author": "Gabriel Lima <gabrielfnlima@gmail.com>",
+  "license": "MIT",
+  "main": "./i18n-intercept.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GabrielFNLima/pwastudio-traducao-pt-br.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GabrielFNLima/pwastudio-traducao-pt-br/issues"
+  },
+  "homepage": "https://github.com/GabrielFNLima/pwastudio-traducao-pt-br#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "~11.4.3",
+    "@magento/venia-ui": "~10.3.0"
+  },
+  "pwa-studio": {
+    "targets": {
+      "intercept": "./i18n-intercept"
+    }
+  },
+  "keywords": [
+    "pwa-studio",
+    "magento",
+    "tradução",
+    "português",
+    "brazilian",
+    "language-pack"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
